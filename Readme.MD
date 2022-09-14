@@ -20,7 +20,7 @@ The goal of this project is to establish trends and patterns in social media beh
 
 [1] https://www.publichealth.hscni.net/directorate-public-health/servicedevelopment-and-screening/bowel-cancer-screening
 
-[2] https://hscbusiness.hscni.net/pdf/Routes%20to%20Diagnosis%20Report%20- %20Main%20Report%20Jan%202020.pdf
+[2] https://hscbusiness.hscni.net/pdf/Routes%20to%20Diagnosis%20Report%20-%20Main%20Report%20Jan%202020.pdf
 
 # Project Objectives
 - Scrape Twitter data from Department of Health, Public Health Agency and other relevant Northern Ireland Twitter accounts regarding bowel cancer
@@ -28,3 +28,8 @@ The goal of this project is to establish trends and patterns in social media beh
 - Perform exploratory data analysis. For example describe how many tweets were posted and how often by each account. What are the most popular bowel cancer tweets over certain period of time.
 - Sentiment analysis – natural language processing using the text mining package tm in R
 - Display findings using a Shiny app
+
+# Packages Used
+- Following R packages are used: shiny, shinydashboard, tidyverse, ggplot2, plotly, dplyr, lubridate, stringr, tidyr, tidytext, tm, purr, RColorBrewer, shinycssloaders, janitor, knitr, syuzhet, colourpicker and ggwordcloud. Some of the shiny UI design elements are from an open-source project.
+- Following python packages are used: snscrape and pandas.
+- Dashboard UI has been reused from https://github.com/gadenbuie/tweet-conf-dash. Thank you!
